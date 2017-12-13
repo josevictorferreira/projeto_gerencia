@@ -20,6 +20,7 @@ public class CrudCidade extends AbstractCrud<Cidade> {
     private static final String PU = EMNames.EMN1;
 
     public CrudCidade() {
+        System.out.println("Teste");
         super(Cidade.class);
     }
 
