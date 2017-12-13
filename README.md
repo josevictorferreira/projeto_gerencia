@@ -2,6 +2,49 @@
 
 # klassic - Projeto Inova
   - Projeto da disciplina de Gerência de Configurações
+  
+# Estruturas das Branchs
+  - O projeto está organizado da seguinte forma:
+  
+     master ->
+
+          v1.0 ->
+
+              dist_1 ->
+
+                  cli_1
+
+                  cli_2
+
+                  cli_3
+
+          v1.1 ->
+
+              dist_2 ->
+
+                  cli_4
+
+          v1.2 ->
+
+              dist_3 ->
+
+                  cli_5
+
+                  cli_6
+
+                  cli_7
+
+                  cli_8
+
+                  cli_9
+
+                  cli_10
+
+              dist_4
+
+              dist_5
+              
+  - Para atualizar um cliente basta mergir com sua branch pai.
 
 # Dependências
   - Ubuntu 16.04
