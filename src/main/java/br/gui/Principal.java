@@ -15,6 +15,7 @@ public class Principal extends javax.swing.JFrame {
      * Creates new form Principal
      */
     public Principal() {
+        System.out.println("Implementado funcionalidade 2");
         initComponents();
         this.setSize(1024, 768);
     }
